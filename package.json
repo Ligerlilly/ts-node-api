@@ -7,5 +7,9 @@
     "koa": "^2.3.0",
     "typescript": "^2.4.2",
     "@types/node": "^8.0.20"
+  },
+  "scripts": {
+    "lint": "tslint --project ./tsconfig.json --type-check",
+    "start": "tsc; node src/index.js"
   }
 }
