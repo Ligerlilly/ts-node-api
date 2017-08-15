@@ -1,3 +1,3 @@
-import { Sequelize } from 'sequelize'
+import * as Sequelize from 'sequelize'
 
 export const sequelize = new Sequelize('postgres://jasonlane@localhost:5432/todos');
